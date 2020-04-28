@@ -10,13 +10,6 @@ Copy the sources to your docker host to run.
 ```
 docker run -it --name u1 limp666/ubuntu_image
 ```
-Get the port that the container is listening on:
-
-```
-# docker ps
-CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
-a8557079fe54        limp666/ubuntu_image   "/bin/bash"         25 seconds ago      Up 24 seconds                           u
-```
 
 To Rollback
 ```

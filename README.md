@@ -8,7 +8,7 @@ tree installed
 
 Copy the sources to your docker host to run.
 ```
-	docker run -it --name u1 limp666/ubuntu:v1
+docker run -it --name u1 limp666/ubuntu:v1
 ```
 Get the port that the container is listening on:
 
@@ -20,6 +20,6 @@ a8557079fe54        limp666/ubuntu:v1   "/bin/bash"         25 seconds ago      
 
 To Rollback
 ```
-    docker rm u1 -f
-    docker rmi limp666/nginx:v1
+docker rm u1 -f
+docker rmi limp666/nginx:v1
 ```

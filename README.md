@@ -1,8 +1,8 @@
 # dockerfile-ubuntu
-Base image is ubuntu
-net-tools installed
-curl installed
-tree installed
+* Base image is ubuntu
+* net-tools installed
+* curl installed
+* tree installed
 
 # Building & Running
 

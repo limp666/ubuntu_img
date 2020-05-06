@@ -14,5 +14,5 @@ docker run -it --name u1 limp666/ubuntu_image
 To Rollback
 ```
 docker rm u1 -f
-docker rmi limp666/nginx_image
+docker rmi limp666/ubuntu_image
 ```
